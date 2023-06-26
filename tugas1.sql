@@ -74,3 +74,6 @@ delete from t_buku where status = 'not available';
 
 -- ! sorting and filtering
 select nama, email  from t_mahasiswa order by nama asc;
+select * from t_mahasiswa where status = 'aktif';
+select nama, role from t_users order by username desc;
+select * from t_users where id in (1,6);
